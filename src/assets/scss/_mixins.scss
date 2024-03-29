@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?8xhnla');
+    src: url('../fonts/icomoon.eot?8xhnla#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?8xhnla') format('truetype'),
+        url('../fonts/icomoon.woff?8xhnla') format('woff'),
+        url('../fonts/icomoon.svg?8xhnla#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: local("RobotoRegular"),
+        url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: local("RobotoBold"),
+        url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: local("RobotoMedium"),
+        url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: local("RobotoBlack"),
+        url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+.icon-close:before {
+    content: "\e900";
+}
+
+.icon-right:before {
+    content: "\e901";
+}
+
+.icon-down:before {
+    content: "\e901";
+    display: inline-block;
+    transform: rotate(90deg) !important;
+}
+
+
+.icon-search:before {
+    content: "\e903";
+}
+
+.icon-menu:before {
+    content: "\e904";
+}

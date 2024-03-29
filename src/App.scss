@@ -1,0 +1,54 @@
+@import "./assets/scss/variables";
+@import "./assets/scss/mixins";
+
+.custom_container {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent !important;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: $white;
+  position: relative;
+  min-height: 50vh;
+  color: $black;
+  font-family: $regular ,  sans-serif;
+  touch-action: manipulation;
+
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+
+a {
+  color: $siteColor;
+  transition: 0.3s;
+  outline: none !important;
+  text-decoration: none;
+  text-transform: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+    opacity: 0.7;
+    outline: none !important;
+  }
+}
